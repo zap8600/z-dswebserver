@@ -115,3 +115,5 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export PATH="/home/runner/emsdk:/home/runner/emsdk/node/14.18.2_64bit/bin:/home/runner/emsdk/upstream/emscripten:$PATH"
